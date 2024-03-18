@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+input {
+    display: block;
+    width: 30%;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    background-image:linear-gradient(rgb(202, 181, 181), rgb(147, 173, 147), rgb(219, 159, 219));
+    box-shadow: 5px 5px 20px #eae8e6;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #000000;
+    font-size: large;
+    background-image: repeating-linear-gradient(to right bottom, bisque 10%, yellow 20%, orange 30%);
+    cursor: pointer;
+}
+
+button:hover {
+     color: #000000;
+    background-image: repeating-linear-gradient(to right , bisque 10%, yellow 20%, orange 30%);
+     
+}
+
+button:active{
+    opacity: 0.5;
+}
+
